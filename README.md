@@ -13,3 +13,10 @@ alt="Watch the video on youtube" />
 
 - There is a Jekyll friendly version <a href="https://github.com/DevTips/DevTips-Starter-Kit/tree/Jekyll-Starter-Kit">here.</a> (based on v1)
 - DevTipster [Maikel José Rivero Dorta](https://github.com/mriverodorta) created a [gulp version](https://github.com/mriverodorta/DevTips-Starter-Kit/tree/Gulp-Starter-Kit), and a [Command Line Interface](https://github.com/mriverodorta/devtips-cli) for this project!! So cool :)
+
+
+### Use of jade
+
+Place jade files in \_jadefiles, then gulp with convert them into html in \_includes. Then add the file in the html page with liquid tags: {% include example.html %}
+
+If not using jekyll, include jade within other files using include tags with a relative path.
