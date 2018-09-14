@@ -53,7 +53,6 @@ gulp.task('sass', function () {
 });
 
 gulp.task('jade', function () {
-    //return gulp.src('_jadefiles/*.jade')
     return gulp.src('_jadefiles/*.jade')
         .pipe(jade({
           pretty: true
